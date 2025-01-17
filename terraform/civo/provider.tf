@@ -3,12 +3,12 @@
 # Initial Provider Configuration for CIVO
 
 terraform {
-  required_version = ">= 0.13.0"
+  required_version = ">= 1.5.0"
 
   required_providers {
     civo = {
       source = "civo/civo"
-      version = "~> 1.0.9"
+      version = "~> 1.1.0"
     }
   }
 }
